@@ -757,16 +757,10 @@ padding-bottom: 24px;
     padding-top: 4px;
     color: #161722;
 }
-#read-blog .blogs .blog .date-1::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 302px;
-    height: 16px;
-    background-color: #FFD2A4;
+#read-blog .blog{
+    position: relative;
 }
-#read-blog .blogs .blog .date:hover::after{
+#read-blog .blog::after{
     content: '';
     position: absolute;
     left: 0;
@@ -774,8 +768,79 @@ padding-bottom: 24px;
     width: 302px;
     height: 16px;
     background-color: #FFD2A4;
+    opacity: 0;
+}
+#read-blog .blog:hover::after{
+    opacity: 1;
 }
 
+
+
+
+#read-blog .blogs .blog-1{
+    background-color: #FFF5EB;
+    padding: 48px 32px;
+    width: 302px;
+    position: relative;
+}
+#read-blog .blogs .blog-1 h6{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #A54E2B, #DC9853);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#read-blog .blogs .blog-1 h3{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #161722;
+    padding-top: 16px;
+    width: 218px;
+}
+#read-blog .blogs .blog-1 p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    color: #161722;
+}
+#read-blog .blogs .blog-1 .name{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 48px;
+    color: #161722;
+}
+#read-blog .blogs .blog-1 .date{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 4px;
+    color: #161722;
+}
+#read-blog .blogs .blog-1 .date-1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 4px;
+    color: #161722;
+}
+#read-blog .blog-1{
+    position: relative;
+}
+#read-blog .blog-1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 302px;
+    height: 16px;
+    background-color: #FFD2A4;
+}
 
 
 
